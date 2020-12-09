@@ -1,0 +1,1 @@
+input = File.readlines("input.txt").each {|line| line.strip!} #read in the file and strip out the whitespace
