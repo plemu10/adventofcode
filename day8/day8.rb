@@ -22,8 +22,6 @@ def execute (instruction , pos, acc, input, used)
 		execute(input[pos], pos, acc, input, used)
 	end
 end
-
-input = File.readlines("input.txt").each {|line| line.strip!} #read in the file and strip out the whitespace
 used = []
 accumulator = 0
 position = 0
